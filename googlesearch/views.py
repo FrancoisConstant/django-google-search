@@ -1,6 +1,5 @@
 from django.views.generic import TemplateView
-#from apiclient.discovery import build
-from googleapiclient.discovery import build
+from apiclient.discovery import build
 from .utils import SearchResults
 from . import *
 
